@@ -1,0 +1,90 @@
+
+ ***** Warning: Cell cOUT is not used in geometry
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: No match for the following materials in the mvol card:
+
+
+ ***** Warning: Elemental XS (40000.06c) in burnable material fuel_salt
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 40096.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 48114.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 52123.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 52130.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 54134.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 54136.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 58142.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 64160.06c has 1 decay modes
+
+
+***** Wed Mar  8 12:06:31 2023 (seed = 1678305971743)
+Warning message from function CheckNuclideData:
+
+Stable nuclide 300700 has 1 decay modes
+

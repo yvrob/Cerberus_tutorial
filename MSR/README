@@ -1,0 +1,44 @@
+#### Use the right modules ####
+module load python/3.8.8 gcc/4.8.5 openmpi cmake/3.22.0 nano
+
+#### Directories can be saturated easily, instead you can use your scratch folder (unlimited storage but no backup) ####
+mkdir /global/scratch/users/$USER/conda
+conda config --add envs_dirs /global/scratch/users/$USER/conda
+mkdir /global/scratch/users/$USER/conda/pkgs
+conda config --add pkgs_dirs /global/scratch/users/$USER/conda/pkgs
+
+#### Create new environment at right location and with the right python version ####
+conda create --prefix /global/scratch/users/$USER/conda/kraken python=3.8.8
+
+#### Initialize conda ####
+conda init
+
+#### Activate environment ####
+conda activate /global/scratch/$USER/yvesrobert/conda/kraken
+
+#### Install packages with pip/conda ####
+conda install pip
+pip install serpentTools numpy scipy pandas matplotlib mpi4py
+
+#### Add some paths for the solver (change to where you have Cerberus/Kraken) ####
+conda develop /global/scratch/users/$USER/Serpent_Cerberus/Cerberus/
+conda develop /global/scratch/users/$USER/Serpent_Cerberus/Krakentools/
+
+#### Add to the ~/.bashrc file the right lines ####
+module load python/3.8.8 gcc/4.8.5 openmpi cmake/3.22.0 nano
+export PATH=$PATH:/global/home/groups/co_nuclear/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/global/home/groups/co_nuclear/gd_library/code/lib
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/global/software/sl-7.x86_64/modules/langs/python/3.8.8/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+eval "$__conda_setup"
+else
+if [ -f "/global/software/sl-7.x86_64/modules/langs/python/3.8.8/etc/profile.d/conda.sh" ]; then
+. "/global/software/sl-7.x86_64/modules/langs/python/3.8.8/etc/profile.d/conda.sh"
+else
+export PATH="/global/software/sl-7.x86_64/modules/langs/python/3.8.8/bin:$PATH"
+fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<

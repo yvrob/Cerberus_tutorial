@@ -1,0 +1,18 @@
+% --- Material volumes:
+
+% Produced Tue Mar  7 12:24:51 2023 by MC volume calculation routine by
+% sampling 100000000 random points in the geometry.
+
+set mvol
+
+fuel_salt       0 1.79031E+05 % (0.001)
+fuel_salt2      0 4.68467E+05 % (0.000)
+updown          0 3.02572E+06 % (0.000)
+refuel          0 0.00000E+00 % (0.000)
+outflow         0 0.00000E+00 % (0.000)
+outflowgas      0 0.00000E+00 % (0.000)
+hastalloy       0 2.09274E+05 % (0.001)
+graphite        0 5.24029E+06 % (0.000)
+B4C             0 0.00000E+00 % (0.000)
+ssteel          0 0.00000E+00 % (0.000)
+nit             0 8.63854E+03 % (0.003)
